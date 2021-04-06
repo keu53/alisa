@@ -16,7 +16,7 @@ def index():
 
 def main():
 	global_init("db/mars_explorer.db")
-	app.run()
+	app.run(port=8000)
 
 if __name__ == '__main__':
 	main()
